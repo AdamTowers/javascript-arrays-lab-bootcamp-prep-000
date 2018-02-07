@@ -19,3 +19,4 @@ function destructivelyRemoveFirstKitten(array) {
   kittens.shift();
   return kittens;
 }
+
