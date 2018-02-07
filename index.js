@@ -27,3 +27,8 @@ function appendKitten(array, element) {
 function prependKitten(array) {
   return ['Arnold', ...kittens];
 }
+
+function removeLastKitten(array) {
+  kittens.slice(-1);
+  return kittens;
+}
