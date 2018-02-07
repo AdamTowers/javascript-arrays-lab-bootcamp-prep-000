@@ -4,3 +4,8 @@ function destructivelyAppendKitten(array) {
   kittens.push('Ralph');
   return kittens;
 }
+
+function destructivelyPrependKitten(array) {
+  kittens.pop('Ralph');
+  return kittens;
+}
