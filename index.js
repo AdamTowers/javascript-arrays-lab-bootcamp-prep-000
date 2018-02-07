@@ -25,5 +25,5 @@ function appendKitten(array, element) {
 }
 
 function prependKitten(array) {
-  return ['Broom', ...kittens];
+  return ['Arnold', ...kittens];
 }
